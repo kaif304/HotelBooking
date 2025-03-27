@@ -1,0 +1,68 @@
+.single-hotel-card {
+    width: 600px;
+    height: 550px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    margin: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .single-hotel-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .single-hotel-details {
+    padding: 1rem;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .single-hotel-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .single-hotel-location {
+    color: #555;
+    font-size: 1rem;
+  }
+  .single-hotel-description {
+    color: #555;
+    font-size: 0.9rem;
+  }
+
+  .book-btn{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .single-hotel-price {
+    font-size: 18px;
+    color: #3a3a3a;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .book-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .book-button:hover {
+    background-color: #0056b3;
+  }
+  

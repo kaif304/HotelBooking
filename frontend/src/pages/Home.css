@@ -1,0 +1,32 @@
+.home{
+    padding: 2rem;
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(350px, 1fr));
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+@media (max-width:1280px) {
+    .home{
+        width: 60%;
+        grid-template-columns: repeat(2, minmax(400px, 1fr));
+    }
+}
+@media (max-width:768px) {
+    .home{
+        display: block;
+        width: 85%;
+        padding: 2rem 0rem;
+    }
+}
+@media (max-width:480px){
+    .home{
+        width: 90%;
+        padding: 1rem 0rem;
+    }
+}
